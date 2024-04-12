@@ -16,7 +16,7 @@ size_t binary_tree_height(const binary_tree_t *tree)
 		return (0);
 
 	h = max_height(tree);
-	return (h - 1);
+	return (h);
 }
 
 /**
